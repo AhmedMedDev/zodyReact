@@ -1,0 +1,129 @@
+/* WHAT PEOPLE SAY*/
+.what{
+    padding: 5% 0;
+    background: #F2F3FE;
+}
+
+.what .content .whatHeader{
+    text-align: center
+}
+.what .content .whatHeader h2{
+    color: #330A67;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+}
+.what .content .whatHeader hr{
+    height: 2px;
+    width: 20%;
+    background: #FC3692;
+}
+.what .content .whatHeader p{
+    color: #14213D;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 19%
+}
+.what .content .whatContent{
+    padding: 3% 0 0;
+    position: relative
+}
+.what .content .whatContent .box{
+    background: #fff;
+    padding: 2rem;
+    /*box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.11);*/
+    border-radius: 20px;
+}
+.what .content .whatContent .box i{
+    color: #FC3692;
+    margin-right: 8px;
+    font-size: 22px;
+}
+.what .content .whatContent .box h5{
+    color: #330A67;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: Sora;
+    margin: 17px 0;
+}
+.what .content .whatContent .box p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.what .content .box-arrow {
+    margin: 50px 0;
+}
+.what .content .box-arrow i{
+    position: absolute;
+    cursor: pointer
+}
+.what .content .prev{
+    font-size: 25px;
+    color: #FC3692;
+/*    left: 40%*/
+}
+.what .content .next{
+    font-size: 25px;
+    color: #FC3692;
+/*    right: 40%;*/
+}
+.what .content .carousel-indicators{
+    bottom: -111px;
+}
+.what .content .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: black;
+    transition: all .4s ease
+}
+.what .content .carousel-indicators .active{
+    background-color: #FC3692;
+}
+.carousel-control-next, .carousel-control-prev{
+    top: 91%;
+    height: 30px;
+    width: 50px;
+    z-index: 99;
+}
+.carousel-control-prev {
+    left: 39%;
+}
+.carousel-control-next {
+    right: 39%;
+}
+/*MEDIA WHAT PEOPLE SAY*/
+@media(max-width:990px){
+    .responsive{
+        display: none
+    }
+}
+@media(max-width:767px){
+    .what .content .whatHeader p{
+        padding: 0
+    }
+}
+@media(max-width:576px){
+    .what {
+        padding: 15% 0;
+    }
+    .what .content .box-arrow {
+        display: none
+    }
+    .what .content .carousel-indicators{
+        display: none;
+       
+    }
+}
+@media(max-width:540px){
+    .what .content .whatContent .box{
+            margin: 0 34px;
+    }
+}
+@media(max-width:265px){
+    .what .content .whatContent .box .disF{
+        display: block
+    }
+}
+/*END WHAT PEOPLE SAY*/

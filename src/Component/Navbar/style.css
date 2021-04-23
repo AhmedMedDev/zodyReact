@@ -1,0 +1,115 @@
+/*NAV*/
+.nav{
+    height: 60px ;
+    background-color: #14213d ;
+    padding-top: 40px;
+    position: relative;
+    z-index: 99
+}
+.nav .container{
+    padding: 0
+}
+.nav .logo{
+    transition: all .5s ease;
+    float: left;
+    position: relative;
+    top: -32px;
+}
+.nav .logo h5{
+    color: #FC3692;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.nav .icon-nav > div{
+    width: 22px;
+    height: 3px;
+    background: white;
+    margin: 6px 0;
+    transition: all .5s ease
+}
+.nav .icon-nav{
+    color: white;
+    position: absolute;
+    right: 43px;
+    font-size: 27px;
+    cursor: pointer;
+    top: 50%;
+    transform: translate(10px, -50%);
+    transition: all .3s ease;
+}
+.nav .nav-links{
+    display: inline-block;
+    float: right;
+    color: white;
+    line-height: 43px;
+}
+.nav ul{
+    display: flex;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+.nav ul li{
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.nav ul li:nth-child(7){
+    padding-right: 0;
+}
+.nav ul li a:hover{
+    color: #00C9DB;
+    transition: all .3s ease
+} 
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    transition: all .1s ease;
+}
+.nav button{
+    background: #FC3692;
+    padding: .2rem 1rem;
+    border-radius: 10px;
+    
+}
+/*MEDIA NAV*/
+@media(max-width:990px){
+    .nav{
+        height: auto;
+        overflow:inherit;
+        padding-top: 0;
+        background: #14213d
+    }
+    .nav .icon-nav{
+        display: block
+    }
+    .nav  .nav-links{
+        position: absolute;
+        right: 0;
+        top: 120px;
+        width: 100vw;
+        padding-left: 57px;
+        display: none;
+        background: #14213d;
+    }
+    .nav  ul{
+        display: block;
+        padding: 0
+    }
+    .nav ul li{
+        padding: 15px 0;
+        list-style: unset;
+    }
+    .nav .logo {
+/*        position: absolute;*/
+        top: 50%;
+        transform: translate(0, -50%);
+        margin-left: 4%;
+    }
+       
+}
+/*END NAV*/

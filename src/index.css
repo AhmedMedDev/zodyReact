@@ -1,0 +1,64 @@
+/*=============BASICS=============*/
+body{
+    /*    height: 8000px;*/
+        background-color: #1f1f1f;
+        font-family: MuseoModerno;
+    }
+    .hidden{
+        display: none
+    }
+    .clear{
+        clear: both
+    }
+    .dis-in-bl{
+        display: inline-block
+    }
+    .respon-img{
+        max-width: 100%
+    }
+    .center{
+        text-align: center
+    }
+    .upper{
+        text-transform: uppercase
+    }
+    .scal{
+        filter: brightness(0.5);
+        transform: scale(1.1);
+    }
+    .posCen {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .disF{
+        display: flex
+    }
+    .disF-a{
+        display: flex;
+        align-items: center
+    }
+    .disF-j{
+        display: flex;
+        justify-content: center
+    }
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        border: 0;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    button span {
+        margin: 0 8px;
+    }
+    /*BASICS*/
+    p{
+        color: #14213D;
+    }

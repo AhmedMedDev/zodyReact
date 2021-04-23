@@ -1,0 +1,100 @@
+/* LOREM*/
+.lorem{
+    padding: 5% 0;
+    background: #fff;
+    
+}
+.lorem .content .loremHeader{
+    text-align: center
+}
+.lorem .content .loremHeader h2{
+    color: #330A67;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+}
+.lorem .content .loremHeader hr{
+    height: 2px;
+    width: 20%;
+    background: #FC3692;
+}
+.lorem .content .loremHeader p{
+    color: #14213D;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 19%
+}
+.lorem .content .loremContent{
+    padding: 6% 0
+}
+.lorem .content .loremContent .box h4{
+    color: #FC3692;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+}
+.lorem .content .loremContent .box p{
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.lorem .content .loremContent2{
+    padding: 5% 0
+}
+.lorem .content .loremContent2 .box .disF{
+    margin: 20px 0;
+}
+.lorem .content .loremContent2 .box h4{
+    color: #FC3692;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+}
+.lorem .content .loremContent2 .box i{
+    font-size: 15px;
+    color: #f8f9fa;
+    background: #330A67;
+    border-radius: 50%;    
+    display: flex;
+    padding: .5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 9px;
+    width: 30px;
+    height: 30px;
+
+}
+.lorem .content .loremContent2 .box p{
+    color: #14213D;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0
+}
+/*MEDIA LOREM*/
+@media(max-width:990px){
+    .lorem{
+        padding: 15% 0
+    }
+    .lorem .content .loremHeader p{
+        padding: 0
+    }
+    .lorem .content .loremContent .box {
+        margin: 50px 0;
+        text-align: center
+    }
+    .lorem .content .loremContent2 .box h4{
+        text-align: center
+    }
+}
+@media(max-width:330px){
+    .lorem .content .loremContent2 .box .disF{
+        display: block;
+        text-align: center;
+        margin: 50px 0
+    }
+    .lorem .content .loremContent2 .box i{
+        margin: auto
+    }
+}
+/*END LOREM*/

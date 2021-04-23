@@ -1,0 +1,28 @@
+/* Praesent purus ipsum*/
+.purus{
+    padding: 3% 0;
+    background: #330A67;
+}
+
+.purus .content h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff
+}
+
+.purus .content button{
+    background: #FC3692;
+    padding: .8rem 1.5rem;
+    border-radius: 10px;
+    
+}
+/*MEDIA Praesent purus ipsum*/
+@media(max-width:767px){
+    .purus{
+        padding: 8% 0
+    }
+    .purus .content h2{
+        text-align: center
+    }
+}
+/*END Praesent purus ipsum*/

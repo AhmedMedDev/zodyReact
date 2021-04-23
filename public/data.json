@@ -1,0 +1,97 @@
+{
+    "feature" : [
+        {
+            "id" : 1,
+            "icon" : "fas fa-mobile-alt",
+            "title" : "Always with you",
+            "body" : "Quisque porta erat in neque interdum laoreet."
+
+        },
+        {
+            "id" : 2,
+            "icon" : "fas fa-search",
+            "title" : "Find a best match",
+            "body" : "Porta erat in neque interdum laoreet.  "
+
+        },
+        {
+            "id" : 3,
+            "icon" : "fas fa-star",
+            "title" : "Unique services",
+            "body" : "Porta erat in neque interdum laoreet.  "
+
+        },
+        {
+            "id" : 4,
+            "icon" : "fas fa-venus",
+            "title" : "Equality and diversity",
+            "body" : "Quisque porta erat in neque interdum laoreet. "
+
+        }
+    ],
+    "lorem" : [
+        {
+            "id" : 1,
+            "body" : "Quisque porta erat in neque interdum laoreet. Integer sed tellus euismod, ornare felis nect."
+
+        },
+        {
+            "id" : 2,
+            "body" : "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae  "
+
+        },
+        {
+            "id" : 3,
+            "body" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.   "
+
+        },
+        {
+            "id" : 4,
+            "body" : "In sodales metus id ornare lobortis."
+
+        },
+        {
+            "id" : 5,
+            "body" : "Vivamus mattis ligula at dolor suscipit, a cursus dolor blandit. "
+
+        }
+    ],
+    "what" : [
+        {
+            "id" : 1,
+            "icons" : "fas fa-star",
+            "title":"Love is Everything",
+            "body" : "Etiam vel consectetur mauris. Suspendisse et lectus nec diam pulvinar varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus egestas ligula turpis, at sagittis nisl ultrices eu."
+
+        },
+        {
+            "id" : 2,
+            "icons" : "fas fa-star",
+            "title":"Love is Everything",
+            "body" : "Etiam vel consectetur mauris. Suspendisse et lectus nec diam pulvinar varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus egestas ligula turpis, at sagittis nisl ultrices eu."
+
+        },
+        {
+            "id" : 3,
+            "icons" : "fas fa-star",
+            "title":"Love is Everything",
+            "body" : "Etiam vel consectetur mauris. Suspendisse et lectus nec diam pulvinar varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus egestas ligula turpis, at sagittis nisl ultrices eu."
+
+        },
+        {
+            "id" : 4,
+            "icons" : "fas fa-star",
+            "title":"Love is Everything",
+            "body" : "Etiam vel consectetur mauris. Suspendisse et lectus nec diam pulvinar varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus egestas ligula turpis, at sagittis nisl ultrices eu."
+
+        },
+        {
+            "id" : 5,
+            "icons" : "fas fa-star",
+            "title":"Love is Everything",
+            "body" : "Etiam vel consectetur mauris. Suspendisse et lectus nec diam pulvinar varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus egestas ligula turpis, at sagittis nisl ultrices eu."
+
+        }
+    ]
+    
+}

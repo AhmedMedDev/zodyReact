@@ -1,0 +1,24 @@
+/* FOOTER*/
+.footer{
+    background: #14213D;
+    padding: 20px 0
+}
+.footer .content p{
+    font-size: 14px;
+    color: #ddd
+}
+.footer .content h4 a{
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff
+}
+/*MEDIA FOOTER*/
+@media(max-width:576px){
+    .footer{
+        padding: 7% 0;
+    }
+    .footer .content{
+        text-align: center
+    }
+}
+/*END FOOTER*/
